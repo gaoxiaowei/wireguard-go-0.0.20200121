@@ -18,6 +18,8 @@ import (
 	"github.com/gaoxiaowei/wireguard-go-ac/device"
 	"github.com/gaoxiaowei/wireguard-go-ac/ipc"
 	"github.com/gaoxiaowei/wireguard-go-ac/tun"
+
+	"gitlab.com/yawning/obfs4.git/common/log"
 )
 
 const (
@@ -56,6 +58,8 @@ func warning() {
 }
 
 func main() {
+	initLogFile()
+	logToFile("main start")
 	if len(os.Args) == 2 && os.Args[1] == "--version" {
 		fmt.Printf("wireguard-go v%s\n\nUserspace WireGuard daemon for %s-%s.\nInformation available at https://www.wireguard.com.\nCopyright (C) Jason A. Donenfeld <Jason@zx2c4.com>.\n", device.WireGuardGoVersion, runtime.GOOS, runtime.GOARCH)
 		return
@@ -268,4 +272,14 @@ func main() {
 	device.Close()
 
 	logger.Info.Println("Shutting down")
+	logToFile("main end")
+}
+
+//add logFile func
+func initLogFile(){
+	log.Init(true,"/Users/gaoxiaowei/Downloads/test.log",false)
+	log.SetLogLevel("INFO")
+}
+func logToFile(message string){
+	log.Infof(message)
 }
