@@ -1,4 +1,4 @@
-module github.com/gaoxiaowei/wireguard-go-0.0.20200121
+module github.com/gaoxiaowei/wireguard-go-ac
 
 go 1.12
 

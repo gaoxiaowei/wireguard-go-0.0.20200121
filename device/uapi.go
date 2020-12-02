@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/ipc"
+	"github.com/gaoxiaowei/wireguard-go-ac/ipc"
 )
 
 type IPCError struct {

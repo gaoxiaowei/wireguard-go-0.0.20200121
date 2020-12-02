@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/ratelimiter"
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tun"
+	"github.com/gaoxiaowei/wireguard-go-ac/ratelimiter"
+	"github.com/gaoxiaowei/wireguard-go-ac/tun"
 )
 
 const (

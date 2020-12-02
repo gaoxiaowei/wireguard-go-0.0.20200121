@@ -8,7 +8,7 @@ package device
 import (
 	"sync/atomic"
 
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tun"
+	"github.com/gaoxiaowei/wireguard-go-ac/tun"
 )
 
 const DefaultMTU = 1420

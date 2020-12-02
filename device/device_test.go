@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tun"
+	"github.com/gaoxiaowei/wireguard-go-ac/tun"
 )
 
 func TestTwoDevicePing(t *testing.T) {

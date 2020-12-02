@@ -9,7 +9,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tun"
+	"github.com/gaoxiaowei/wireguard-go-ac/tun"
 )
 
 // newDummyTUN creates a dummy TUN device with the specified name.
