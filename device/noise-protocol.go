@@ -13,7 +13,7 @@ import (
 	"golang.org/x/crypto/blake2s"
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/poly1305"
-	"golang.zx2c4.com/wireguard/tai64n"
+	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tai64n"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"errors"
 	"os"
 
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/tun"
 )
 
 // newDummyTUN creates a dummy TUN device with the specified name.

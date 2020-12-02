@@ -1,4 +1,4 @@
-module golang.zx2c4.com/wireguard
+module github.com/gaoxiaowei/wireguard-go-0.0.20200121
 
 go 1.12
 

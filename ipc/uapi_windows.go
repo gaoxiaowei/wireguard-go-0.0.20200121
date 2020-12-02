@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"golang.zx2c4.com/wireguard/ipc/winpipe"
+	"github.com/gaoxiaowei/wireguard-go-0.0.20200121/ipc/winpipe"
 )
 
 // TODO: replace these with actual standard windows error numbers from the win package
